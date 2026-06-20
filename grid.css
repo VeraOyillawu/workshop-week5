@@ -1,0 +1,35 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 15px;
+    padding: 15px;
+    min-height: calc(100vh - 60px);
+}
+
+header, aside, main, footer{
+    padding: 20px;
+    border-radius: 5px;
+}
+header{
+    background-color: whitesmoke;
+    grid-column: 1 / span 2;      /* span across the page */
+    text-align: center; 
+    font-weight: bold;
+}
+aside{
+    background-color: whitesmoke;
+    grid-column: 1/    /* stays in column */
+}
+main{
+    /* background-color: whitesmoke;
+    ' */
+    border: 2px solid whitesmoke;
+    grid-column: 2;
+}
+footer{
+    background-color: whitesmoke;
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-size: 0.9rem;
+}
