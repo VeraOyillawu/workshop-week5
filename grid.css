@@ -19,11 +19,10 @@ header{
 }
 aside{
     background-color: whitesmoke;
-    grid-column: 1/    /* stays in column */
+    grid-column: 1    /* stays in column */
 }
 main{
-    /* background-color: whitesmoke;
-    ' */
+    /* background-color: whitesmoke; */
     border: 2px solid whitesmoke;
     grid-column: 2;
 }
